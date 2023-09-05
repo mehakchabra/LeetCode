@@ -5,7 +5,6 @@ class Solution:
         """
         
         left = 0
-        zero = 0
         for right in range(len(nums)):
             if nums[right]:
                 nums[left], nums[right] = nums[right], nums[left]
